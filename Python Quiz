@@ -1,0 +1,6 @@
+def text_prompt(msg):
+  try:
+    return raw_input(msg)
+  except NameError:
+    return input(msg)
+print('Welcome to the Quiz!')
